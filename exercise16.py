@@ -29,4 +29,25 @@ class Account:
     self.holder_id = holder_id
     self.balance = balance
     self.start_date = datetime.now()
-    
+
+''' Agrega dos métodos, deposit() (depositar) y withdraw() (retirar), los cuales toman argumentos flotantes y afectan el balance en consecuencia. 
+El método deposit() aumenta el balance, mientras que el método withdraw() lo disminuye; ambos métodos esperan que la entrada amount sea del tipo float.'''
+
+#Código
+from datetime import datetime
+
+class Account:
+  def _init_ (self, bank, acc_id, holder_id, balance:float=0.0):
+    self.bank = bank
+    self.acc_id = acc_id
+    self.holder_id = holder_id
+    self.balance = balance
+    self.start_date = datetime.now()
+
+  def deposit(self, amount:float):
+  self.balance += amount
+
+  def withdraw(self, amount: float):
+  self.balance -= amount
+
+
