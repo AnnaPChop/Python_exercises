@@ -1,6 +1,6 @@
 '''Estás construyendo un programa para analizar los datos de ventas de una tienda minorista. El director de la tienda quiere que calcules los ingresos totales generados en una semana y averigües los importes de venta más altos y más bajos de un día.
 
-La salida esperada es esta:
+La salida esperada es esta :
 
 Ingresos totales de la semana: $ 1721.99
 Importe de ventas más alto en un día: 400.0 $.
